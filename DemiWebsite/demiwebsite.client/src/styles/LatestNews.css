@@ -1,0 +1,52 @@
+.news:hover {
+    cursor: pointer;
+    background: #ebdddd;
+    transition: all .7s ease;
+}
+
+.latest-news{
+    padding:30px;
+    
+}
+
+.news *{
+    color:black;
+}
+
+.latest-news h2{
+
+}
+
+.latest-news .news{
+    padding:30px 0;
+    border-bottom:2px solid black;
+    display:flex;
+    flex-direction:row;
+    margin-right:30%;
+}
+
+.latest-news .news > p{
+    display:inline-block;
+    margin-right:30px;
+    text-align:start;
+    position:relative;
+    top:15px;
+    width:10%;
+}
+
+.description {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.latest-news .news > div {
+    display: inline-block;
+    width:80%;
+}
+
+.latest-news .proceed-button{
+    float:right;
+    margin-top:20px;
+    margin-right:30%;
+}

@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:5173",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "D:\\FullstackDevelopment\\DemiWebsite\\DemiWebsite\\DemiWebsite.Server\\..\\demiwebsite.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

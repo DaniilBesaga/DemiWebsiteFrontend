@@ -1,0 +1,6 @@
+@DemiWebsite.Server_HostAddress = http://localhost:5114
+
+GET {{DemiWebsite.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

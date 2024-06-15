@@ -1,0 +1,58 @@
+.slide-show img{
+   
+}
+
+.slide-show div:first-of-type {
+    background-image: url("https://profirealt.blob.core.windows.net/commerce/spyfamily.webp");
+    padding-top: 55.1875%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /*100% 100%*/
+    background-position: center;
+    transition: all .3s ease;
+}
+
+.slide-show i {
+    position: absolute;
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 1000;
+    top: 70%;
+}
+
+.slide-show i:first-of-type{
+    left:20px;
+}
+
+.slide-show i:last-of-type{
+    right:20px;
+}
+
+.slides-panel{
+    position:absolute;
+    left:50%;
+    transform:translate(-50%, 50%);
+    margin-top:-50px;
+    z-index:1000;
+}
+
+.slides-panel li {
+    height: 5px;
+    width: 50px;
+    display:inline-block;
+    margin-left:20px;
+    transition:all .8s ease;
+    cursor:pointer;
+}
+
+.li-active {
+    background: #D9D9D9;
+}
+
+.li-unactive {
+    background: #000000;
+}
+
+.li-unactive:hover{
+    background: #D9D9D9;
+} 

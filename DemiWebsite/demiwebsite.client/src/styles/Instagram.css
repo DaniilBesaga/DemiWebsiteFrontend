@@ -1,0 +1,31 @@
+.inst-container{
+    padding:30px;
+}
+
+.inst-container .grid-5 {
+    padding:30px;
+    display:grid;
+    grid-template-columns:repeat(5, 1fr);
+    gap:30px;
+    margin-top:50px;
+}
+
+.inst-container .grid-5 img {
+    width:100%;
+}
+
+.inst-container .grid-5 a {
+    width:100%;
+    transition: all .6s ease;
+}
+
+.inst-container .grid-5 a:hover{
+    cursor:pointer;
+    opacity: .7;
+} 
+
+.inst-container .proceed-button {
+    float: right;
+    margin-top: 20px;
+    margin-right: 2%;
+}

@@ -1,0 +1,134 @@
+.container iframe{
+    margin-top:30px;
+}
+
+.company-welcome-container{
+    margin-bottom:50px;
+}
+
+.company-welcome {
+    display: flex;
+    height: 600px;
+    overflow: hidden;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.company-welcome img{
+    width:50%;
+    height:auto;
+    vertical-align:top;
+    object-fit:cover;
+}
+
+.company-info {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+
+.company-info ul{
+    background:#E7E7E7;
+    width:100%;
+}
+
+.company-info li {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding:15px;
+}
+
+.company-info li span:first-child{
+    display:flex;
+    align-items:center;
+    width:200px;
+    font-weight:600;
+} 
+
+.company-info li span a{
+    cursor:pointer;
+    text-decoration:underline;
+    color: #a52822;
+}
+
+.greetings div{
+    display:flex;
+    padding:50px 0 50px 50px;
+    align-items:center;
+    gap:50px;
+}
+
+.greetings img {
+    width: 20%
+}
+
+.greetings p {
+    font-size: 1.1em;
+}
+
+.creators > div{
+    display:flex;
+    justify-content:space-between;
+    padding:50px;
+}
+
+.creators img{
+    border-radius:50%;
+    width:150px;
+    height:150px;
+    object-fit:cover;
+    border:1px solid black;
+    z-index:100;
+}
+
+.creator {
+    display: flex;
+    align-items:center;
+}
+
+.creator > div{
+    display:block;
+    margin-left:10px;
+}
+
+.creator p, .creator span{
+    margin-top:10px;
+    font-weight:500;
+    text-shadow: 0px 0px 1px #000000;
+}
+
+.pargramn-shape {
+    background: white;
+    border-bottom: 30px solid #D9D9D9;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+    height: 20px;
+    width: 230px;
+    padding-left: 15px;
+    margin-left:-52px;
+}
+
+.creator span {
+    position: absolute;
+    line-height: 10px;
+    vertical-align: middle;
+}
+
+.creator p:last-child{
+    margin-left:8px;
+}
+
+.our-vision{
+    
+}
+
+.our-vision .h-red{
+    margin-bottom:20px;
+}
+
+.our-vision p{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom:15px;
+}

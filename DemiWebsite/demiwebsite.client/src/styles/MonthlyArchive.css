@@ -1,0 +1,84 @@
+.archive{
+    position:absolute;
+    top:35%;
+    right: 15%;
+}
+
+.archive .h-red{
+    width:260px;
+}
+
+.archive div{
+    background: #f8f8f8;
+    padding:10px;
+    border-radius:10px;
+    color:red;
+    margin-top:10px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    cursor:pointer;
+}
+
+.archive i{
+    font-size:20px;
+    
+}
+
+.archive ul{
+    background: #f8f8f8;
+    padding:10px 0 20px 30px;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+}
+
+.show {
+    opacity: 1 !important;
+    height: 200px !important;
+    transition: all 1s ease-in-out !important;
+}
+
+.archive li{
+    color: #fc035a;
+    cursor:pointer;
+    margin-top:10px;
+    
+}
+
+.archive a {
+    color: red;
+}
+
+.archive li:hover{
+    text-decoration: underline;
+}
+
+@keyframes appearing{
+    0%{
+        opacity:0;
+        
+    }
+
+    100% {
+        opacity: 1;
+        
+    }
+}
+
+.url-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: black;
+    font-size: .8em;
+    color: white;
+    padding: 3px 10px;
+    opacity: 0;
+}
+
+.url-show {
+    opacity: 1;
+    transition: opacity 1s ease;
+}

@@ -1,0 +1,19 @@
+.recruit-container {
+    gap:10px;
+}
+
+.recruit-container .recruit-item:first-of-type a{
+    background:#1bb8b3;
+}
+
+.recruit-container .recruit-item:nth-of-type(2) a{
+    background:#f7b107;
+}
+
+.recruit-container .recruit-item:nth-of-type(3) a{
+    background:#1b82b8;
+}
+
+.recruit-container .recruit-item:nth-of-type(4) a{
+    background:#f78e07;
+}

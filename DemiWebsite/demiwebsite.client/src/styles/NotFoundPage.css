@@ -1,0 +1,25 @@
+.not-found {
+    text-align: center;
+}
+
+.not-found h2{
+    vertical-align:middle;
+    font-size:5em;
+    color:red;
+    margin-top:15%;
+    margin-bottom:100px;
+}
+
+.not-found a{
+    color:red;
+    padding:20px 50px;
+    border:1px solid pink;
+    border-radius:10px;
+    transition:all .8s ease;
+}
+
+.not-found a:hover{
+    background:red;
+    color:white;
+    transition:all .8s ease;
+}

@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "V+wNfr/xkArZOarGE/xW2C9Tg24k9rd+qoPIsGNRx/Q=",
+  "Source": "DemiWebsite.Server",
+  "BasePath": "_content/DemiWebsite.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\FullstackDevelopment\\DemiWebsite\\DemiWebsite\\demiwebsite.client\\demiwebsite.client.esproj",
+      "Version": 2,
+      "Source": "demiwebsite.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

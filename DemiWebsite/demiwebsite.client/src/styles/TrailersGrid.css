@@ -1,0 +1,39 @@
+.trailers-container{
+    margin-top:30px;
+    
+}
+
+.trailers-container .grid-6{
+    padding:30px;
+    display:grid;
+    grid-template-columns:repeat(6, 1fr);
+    gap:20px;
+}
+
+:is(.trailers-container .grid-6, .trailers-container) a {
+    width: 100%;
+    color:black;
+}
+
+:is(.trailers-container .grid-6, .trailers-container) img {
+    width: 100%;
+    height: auto;
+}
+
+:is(.trailers-container .grid-6, .trailers-container) p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.trailers-container .grid-3{
+    padding:60px;
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:20px;
+}
+
+.trailers-container .grid-3 img{
+    height:250px;
+}

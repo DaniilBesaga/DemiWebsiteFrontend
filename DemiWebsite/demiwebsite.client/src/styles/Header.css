@@ -1,0 +1,99 @@
+header {
+    margin-right: 50px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    
+    padding:30px 0;
+    background: white;
+}
+
+.logo {
+    display: flex;
+    overflow: hidden;
+    align-items:center;
+}
+
+.logo span{
+    font-size:32px;
+    margin-left:10px;
+    font-style: italic;
+    font-weight:600;
+    z-index:10;
+}
+
+.logo span:first-letter{
+    color:red;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+    transform:scale(2);
+    
+}
+
+header .header-nav {
+    gap:20px;
+    display:flex;
+    margin-left: auto;
+    margin-top:.5%;
+}
+
+header .header-nav li{
+    text-transform:uppercase;
+    font-weight:600;
+    font-size:14px;
+    cursor:pointer;
+    border-bottom:2px solid transparent;
+}
+
+header .header-nav a{
+    color:black;
+}
+
+header .header-nav li:hover{
+    border-bottom:2px solid red; 
+}
+
+header .header-langs{
+    margin-left:50px;
+}
+
+header .header-langs span{
+    font-weight:600;
+    text-transform:uppercase;
+    font-size:13px;
+    cursor:pointer;
+}
+
+header .header-langs span:nth-child(2){
+    font-size:20px;
+    padding:0 5px;
+    cursor:default;
+}
+
+header .header-theme{
+    margin-left:50px;
+}
+
+header .header-theme span{
+    position: absolute;  
+    transform: translate(-50%, -50%);
+    height: 30px;
+    width: 15px;
+    cursor:pointer;
+}
+
+.light {
+    border-radius: 150px 0 0 150px;
+    background-color: white;
+    border:2px solid yellow;
+}
+
+.dark {
+    margin-left: 14px;
+    border-radius: 0 150px 150px 0;
+    background-color: black;
+    border: 2px solid transparent;
+}

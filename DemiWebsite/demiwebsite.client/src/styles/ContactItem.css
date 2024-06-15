@@ -1,0 +1,38 @@
+.contact-item{
+    border:3px solid black;
+    padding:20px 15px;
+}
+
+.contact-item h4{
+    text-transform:uppercase;
+    margin-bottom:5px;
+}
+
+.contact-item p{
+    line-height:30px;
+    word-spacing:10px;
+}
+
+.contact-item a{
+    border:3px solid black;
+    padding:15px 40px;
+    margin-left:20px;
+    font-weight:600;
+    margin-top:20px;
+    border-radius:10px;
+    color:black;
+    display:inline-block;
+}
+
+.contact-item a:hover{
+    background:black;
+    color:white;
+    cursor:pointer;
+    transition: all 1s ease;
+}
+
+.contact-container {
+    gap: 120px;
+    margin-top: 50px;
+    grid-row-gap: 30px;
+}
